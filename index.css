@@ -1,0 +1,59 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    margin-top: 50px !important;
+
+    width: 75%;
+    margin: auto;
+    text-align: center;
+
+    font-size: 50px;
+
+    padding: 100px;
+
+    padding-top: 20px !important;
+
+    padding-bottom: 20px !important;
+
+    border: 2px solid;
+
+    background-color: aliceblue;
+
+}
+
+form div {
+
+    margin: 10px;
+
+}
+
+
+input {
+
+    font-size: 30px;
+
+    padding: 10px;
+}
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#valider, #annuler {
+
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 100px;
+
+    margin-right: 100px;
+    margin-left: 100px;
+
+}
