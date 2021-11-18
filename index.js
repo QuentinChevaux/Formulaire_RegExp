@@ -17,7 +17,7 @@ valider.addEventListener('click', (event) => {
 
     let value_code_postal = code_postal.value.search(/^[1-9][0-9][0-9]{3}$/)
     
-    let value_ville = ville.value.search(/[a-zA-Z ]{2,30}$/)
+    let value_ville = ville.value.search(/^[a-zA-Z ]{2,30}$/)
 
     let value_email = email.value.search(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/)
 
@@ -105,12 +105,5 @@ valider.addEventListener('click', (event) => {
         email.style.border = "2px solid lightgreen"
 
     }
-
-})
-
-annuler.addEventListener('click', () => {
-
-    document.getElementById("form").reset();
-
 
 })

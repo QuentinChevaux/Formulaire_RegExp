@@ -56,4 +56,6 @@ input::-webkit-inner-spin-button {
     margin-right: 100px;
     margin-left: 100px;
 
+    padding: 10px 30px;
+
 }
